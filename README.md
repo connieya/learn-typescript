@@ -14,7 +14,12 @@
   - index.ts => index.js 컴파일 하는 명령어
 
 
+## 타입스크립트 설정
 
+- [타입스크립트 TSconfig Reference](https://www.typescriptlang.org/tsconfig)
+- [타입스크립트 컬파일 옵션](https://www.typescriptlang.org/docs/handbook/compiler-options.html)
+- [타입스크립트 플레이그라운드](https://www.typescriptlang.org/play)
+- [바벨 사이트](https://babeljs.io/)
 
 ## git convention
 

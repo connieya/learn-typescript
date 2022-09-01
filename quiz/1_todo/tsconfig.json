@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "checkJs": true,
+    "noImplicitAny": false
+  },
+  "include": ["./src/**/*"],
+  "rules": {     
+    "prettier/prettier": ["error", { "endOfLine": "auto" }]   
+  }
+}

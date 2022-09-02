@@ -35,8 +35,8 @@ sum = function(a:number , b :number){
 interface StringArray {
     [index : number]: string;
 }
-var arr : StringArray= ['a','b','c'];
-arr[0];
+// var arr : StringArray = ['a','b','c'];
+// arr[0];
 
 
 // 딕셔너리 패턴
@@ -44,11 +44,11 @@ interface StringRegexDictionary {
     [key : string] : RegExp
 }
 
-var obj : StringRegexDictionary = {
-    sth : /abc/,
-    cssFile : /\.css$/,
-    jsFile : /\.js$/,    
-}
+// var obj : StringRegexDictionary = {
+//     sth : /abc/,
+//     cssFile : /\.css$/,
+//     jsFile : /\.js$/,    
+// }
 
 Object.keys(obj).forEach(function(value){
 
@@ -65,7 +65,7 @@ interface Developer extends Person {
     language : string;
 }
 
-var captain : Developer = {
+var ct : Developer = {
     language : 'ts',
     age : 23,
     name : '캡틴'

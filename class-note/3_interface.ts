@@ -14,12 +14,12 @@ function getUser(user: User){
     console.log(user);
 }
 
-const capt = {
+const captains = {
     name : "캡틴",
     age : 29
 }
 
-getUser(capt);
+getUser(captains);
 
 // 함수의 스펙(구조)에 인터페이스를 활용 
 interface SumFunction {

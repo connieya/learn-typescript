@@ -18,6 +18,45 @@
 동적인 자바스크립트 언어에 타입을 미리 부여함으로써 컴파일시 에러를 잡을 수 가 있다.
 
 
+## type 과 interface 의 차이
+
+
+
+#### 선언적 확장
+
+type 은 새로운 속성을 추가하기 위해서 다시 같은 이름을 선언할 수 없지만, interface는 항상
+선언적 확장이 가능하다.
+
+```javascript
+interface User {
+    name : string
+}
+
+interface User {
+    lastName : string
+}
+
+interface User {
+    health : number
+}
+```
+
+아래 코드는 에러 발생
+
+```javascript
+type User {
+  name: string;
+}
+
+type User {
+  lastName: string;
+}
+
+type User {
+  health: number;
+}
+```
+
 
 ## 타입스크립트 적용
 
